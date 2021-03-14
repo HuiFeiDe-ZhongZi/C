@@ -1,13 +1,13 @@
 #include "Num.h"
 
 
-
+//¹¹Ôì
 CNum::CNum()
 {
 	m_nNum = 100;
 }
 
-
+//Îö¹¹
 CNum::~CNum()
 {
 }
