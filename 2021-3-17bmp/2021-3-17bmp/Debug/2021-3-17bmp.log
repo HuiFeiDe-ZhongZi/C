@@ -1,0 +1,4 @@
+﻿  源.cpp
+d:\科林上课\c++\2021-3-17bmp\2021-3-17bmp\源.cpp(28): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  2021-3-17bmp.vcxproj -> D:\科林上课\C++\2021-3-17bmp\Debug\2021-3-17bmp.exe
+  2021-3-17bmp.vcxproj -> D:\科林上课\C++\2021-3-17bmp\Debug\2021-3-17bmp.pdb (Full PDB)
