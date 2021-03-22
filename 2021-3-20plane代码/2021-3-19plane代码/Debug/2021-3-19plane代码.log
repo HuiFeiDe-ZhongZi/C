@@ -1,4 +1,6 @@
 ﻿  WinMain.cpp
-d:\科林上课\c++\2021-3-19plane代码\2021-3-19plane代码\winmain.cpp(25): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
-  2021-3-19plane代码.vcxproj -> D:\科林上课\C++\2021-3-19plane代码\Debug\2021-3-19plane代码.exe
-  2021-3-19plane代码.vcxproj -> D:\科林上课\C++\2021-3-19plane代码\Debug\2021-3-19plane代码.pdb (Full PDB)
+d:\github代码上传\c\2021-3-20plane代码\2021-3-19plane代码\winmain.cpp : fatal error C1041: 无法打开程序数据库“D:\GitHub代码上传\C\2021-3-20plane代码\2021-3-19plane代码\Debug\vc140.idb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS
+  Player.cpp
+  PlaneApp.cpp
+  Back.cpp
+  正在生成代码...
