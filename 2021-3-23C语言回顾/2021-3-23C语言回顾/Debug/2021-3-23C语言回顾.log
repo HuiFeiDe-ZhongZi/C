@@ -1,0 +1,5 @@
+﻿  c练习.cpp
+d:\github代码上传\c\2021-3-23c语言回顾\2021-3-23c语言回顾\c练习.cpp(104): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\github代码上传\c\2021-3-23c语言回顾\2021-3-23c语言回顾\c练习.cpp(104): warning C4305: “初始化”: 从“double”到“float”截断
+  2021-3-23C语言回顾.vcxproj -> D:\GitHub代码上传\C\2021-3-23C语言回顾\Debug\2021-3-23C语言回顾.exe
+  2021-3-23C语言回顾.vcxproj -> D:\GitHub代码上传\C\2021-3-23C语言回顾\Debug\2021-3-23C语言回顾.pdb (Full PDB)
