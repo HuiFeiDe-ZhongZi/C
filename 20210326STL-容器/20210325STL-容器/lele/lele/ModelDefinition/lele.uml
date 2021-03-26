@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b39c694e-ca86-4426-b1e0-b75a1e095306"
+  name="lele" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="e7804b44-177a-4611-937a-7ef908c17a20">
+      <body>
+template&lt;T&gt;
+class CList
+{
+private:
+	Node* m_pHead;
+	Node* m_pEnd;'
+public:
+	void Push_Back(T t);
+	void Pop_Back();
+public:
+	List_Itertaor begin()
+	{
+		return m_pHead;
+	}
+	List_Itertaor end()
+	{
+		return NULL;
+	}
+};</body>
+      <annotatedElements>
+        <commentMoniker
+          Id="244effd1-dcc0-4e37-82ce-b49b9f2be044"
+          LastKnownLocation="lele.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="244effd1-dcc0-4e37-82ce-b49b9f2be044">
+      <body>
+class List_Itertaor
+{
+public;
+	Node* pTemp;
+public:
+	List_Itertaor(Node* pNode)
+public:
+	operator++()
+		pTemp = pTemp-&gt;pNext;
+	operator*()
+		return pTemp-&gt;nVal;
+	operator-&gt;()
+		.....
+	operator==()
+		....
+	operator!=()
+		....
+};
+
+List_Itertaor ite = lst.begin();</body>
+    </comment>
+    <comment
+      Id="b260fc96-c5de-43ba-9de0-8e0cbf79d7c6">
+      <body>
+template&lt;T&gt;
+class Vector
+{
+private:
+	T* pArr;
+	T* pHead;
+	T* pEnd;
+public:
+	void Push_Back(T t);
+	void Pop_Back();
+public:
+	Vector_Iterator begin()
+	{
+		return m_pHead;
+	}
+	Vector_Iterator end()
+	{
+		return NULL;
+	}
+};</body>
+      <annotatedElements>
+        <commentMoniker
+          Id="fc2eb0f8-c348-4cdd-aed5-79040075b86a"
+          LastKnownLocation="lele.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="fc2eb0f8-c348-4cdd-aed5-79040075b86a">
+      <body>
+class Vector_Iterator
+{
+public;
+	T* pTemp;
+public:
+	List_ItertaorTpNode)
+public:
+	operator++()
+		pTemp++;
+	operator*()
+		return pTemp-&gt;nVal;
+	operator-&gt;()
+		.....
+	operator==()
+		....
+	operator!=()
+		....
+};
+
+Vector_Iterator ite = vec.begin();</body>
+    </comment>
+    <comment
+      Id="8f9d54f8-1838-4a6b-9f43-718196203adf">
+      <body>
+template&lt;T&gt;
+class Map
+{
+	Map_Iterator begin()
+	{
+		return m_pHead;
+	}
+	Map_Iterator end()
+	{
+		return NULL;
+	}
+};</body>
+      <annotatedElements>
+        <commentMoniker
+          Id="af269578-c1e3-430a-b361-9a8bc2775abc"
+          LastKnownLocation="lele.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="af269578-c1e3-430a-b361-9a8bc2775abc">
+      <body>
+class Map_Iterator
+{
+public;
+	T* pTemp;
+public:
+	List_ItertaorTpNode)
+public:
+	operator++()
+		pTemp = pTemp-&gt;pLeft;
+		....
+		pTemp = pTemp-&gt;Right;
+		....
+	operator*()
+		return pTemp-&gt;nVal;
+	operator-&gt;()
+		.....
+	operator==()
+		....
+	operator!=()
+		....
+};
+
+Map_Iterator ite = mp.begin();</body>
+    </comment>
+    <comment
+      Id="6fc1b746-5ec3-45aa-8000-4a7bb5d00a0c">
+      <body>
+template &lt;typename TT,typename KK&gt;
+TT Find(TT first,TT last,KK nVal)
+{
+	for( ; firs != last ; frist++)
+		if( *frist == nVal )
+			break;
+	reaturn frist;
+}
+
+Find(lst.begin(),lst.end(),100)
+Find(vec.begin(),vec.end(),100)
+Find(mp.begin(),mp.end(),100)</body>
+    </comment>
+    <comment
+      Id="664d9553-40a6-4f08-b0ad-74397fa73a4d">
+      <body>Find()
+{
+	while()
+	{
+		Temp = pTemp-&gt;pNext;
+	}
+}</body>
+      <annotatedElements>
+        <commentMoniker
+          Id="7c048afc-0f3a-4d8b-ba97-8f2b7194bd6a"
+          LastKnownLocation="lele.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="7c048afc-0f3a-4d8b-ba97-8f2b7194bd6a">
+      <body>
+template&lt;T&gt;
+class CList
+{
+private:
+	Node* m_pHead;
+	Node* m_pEnd;'
+public:
+	void Push_Back(T t);
+	void Pop_Back();
+public:
+	List_Itertaor begin()
+	{
+		return m_pHead;
+	}
+	List_Itertaor end()
+	{
+		return NULL;
+	}
+};</body>
+    </comment>
+    <comment
+      Id="97f5f56d-ba01-42cf-9025-73f7e0683960">
+      <body>
+template&lt;T&gt;
+class Vector
+{
+private:
+	T* pArr;
+	T* pHead;
+	T* pEnd;
+public:
+	void Push_Back(T t);
+	void Pop_Back();
+public:
+	Vector_Iterator begin()
+	{
+		return m_pHead;
+	}
+	Vector_Iterator end()
+	{
+		return NULL;
+	}
+};</body>
+    </comment>
+    <comment
+      Id="cfdcab8f-403b-4c04-b615-a3ad08302985">
+      <body>
+template&lt;T&gt;
+class Map
+{
+	Map_Iterator begin()
+	{
+		return m_pHead;
+	}
+	Map_Iterator end()
+	{
+		return NULL;
+	}
+};</body>
+    </comment>
+    <comment
+      Id="90568157-421c-4096-adcd-7a5832c9e99c">
+      <body>Find()
+{
+	while()
+	{
+		Temp++;
+	}
+}</body>
+      <annotatedElements>
+        <commentMoniker
+          Id="97f5f56d-ba01-42cf-9025-73f7e0683960"
+          LastKnownLocation="lele.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="92616c41-60b4-498f-889c-5977f41c9185">
+      <body>Find()
+{
+	while()
+	{
+		Temp = pTemp-&gt;pLeft;
+		Temp = pTemp-&gt;pRight;
+	}
+}</body>
+      <annotatedElements>
+        <commentMoniker
+          Id="cfdcab8f-403b-4c04-b615-a3ad08302985"
+          LastKnownLocation="lele.uml" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b7c34051-6034-4e94-bb1d-400c93e62b44"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
